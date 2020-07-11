@@ -1,0 +1,172 @@
+.development-team {
+  position: relative;
+  border: 1px solid white;
+  width: 518px;
+  height: 300px;
+  -webkit-box-shadow: 0 0 5px #888888;
+          box-shadow: 0 0 5px #888888;
+  z-index: 999;
+  left: 25%;
+  margin-top: 50px;
+}
+
+.development-team h4 {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  font-family: 'Oswald';
+}
+
+.development-team .fa {
+  color: #bdb6b6;
+}
+
+.development-team #x {
+  color: black;
+}
+
+.development-team label {
+  color: #bdb6b6;
+}
+
+.corner {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin-right: 10px;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.items .search-bar {
+  margin-left: 70px;
+}
+
+.items .search-bar input {
+  border: 0;
+  outline: none;
+  width: 378px;
+}
+
+.items .checkbox-border {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 2px;
+  border: 1px solid #f0eded;
+}
+
+.items .checkbox-label {
+  margin-left: 7px;
+}
+
+.items .checkbox-right {
+  margin-left: auto;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.items .float-left {
+  margin-right: 4px;
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.items .checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.items .checkbox-round:checked {
+  background: url("https://i2.wp.com/blog.stylingandroid.com/wp-content/uploads/2017/06/toggle_checked.png?resize=240%2C240&ssl=1") no-repeat;
+  height: 18px;
+  width: 18px;
+  display: inline-block;
+  background-size: cover;
+  padding: 0 0 0 0px;
+}
+
+.divider {
+  border-bottom: 1px solid #f0eded;
+  margin: 5px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  width: 518px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.buttons button {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  outline: none;
+}
+
+.buttons .cancel {
+  background-color: white;
+  color: grey;
+  border: 1px solid white;
+  -webkit-box-shadow: 0 0 5px #dad5d5;
+          box-shadow: 0 0 5px #dad5d5;
+  border-radius: 5px;
+}
+
+.buttons .save {
+  background: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d));
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  border: 1px solid white;
+  -webkit-box-shadow: 0 0 5px #dad5d5;
+          box-shadow: 0 0 5px #dad5d5;
+  border-radius: 5px;
+}
+
+.check-with-label:checked + .label-for-check {
+  color: #000;
+}
+
+.check-with-label:checked + .label-for-check + .fa {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
