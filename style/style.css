@@ -2,18 +2,20 @@
   position: relative;
   border: 1px solid white;
   width: 518px;
-  height: 300px;
+  height: 330px;
   -webkit-box-shadow: 0 0 5px #888888;
           box-shadow: 0 0 5px #888888;
   z-index: 999;
-  left: 25%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   margin-top: 50px;
 }
 
 .development-team h4 {
   margin-left: 20px;
   margin-bottom: 40px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 .development-team .fa {
@@ -137,8 +139,8 @@
 }
 
 .buttons button {
-  width: 100px;
-  height: 30px;
+  width: 121px;
+  height: 49px;
   margin-left: 10px;
   outline: none;
 }
@@ -153,8 +155,8 @@
 }
 
 .buttons .save {
-  background: -webkit-gradient(linear, left top, right top, from(#43cea2), to(#185a9d));
-  background: linear-gradient(to right, #43cea2, #185a9d);
+  background: -webkit-gradient(linear, left top, right top, from(#37bcca), to(#3a83cc));
+  background: linear-gradient(to right, #37bcca, #3a83cc);
   color: white;
   border: 1px solid white;
   -webkit-box-shadow: 0 0 5px #dad5d5;
